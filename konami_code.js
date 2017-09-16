@@ -7,10 +7,10 @@ function init(e) {
     const key = parseInt(e.detail || e.which);
   if (code[i] === key){
     i++;
-    
+
     if (i === code.length){
       alert("Hurray!");
-      
+
       i = 0;
     }
   } else {
